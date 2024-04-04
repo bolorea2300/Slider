@@ -1,0 +1,56 @@
+html
+{
+    margin: 0;
+}
+
+body
+{
+    margin: 0;
+    overflow: hidden;
+}
+
+#slider
+{
+    width: 100%;
+    display: flex;
+    position:relative;
+    transition: 0.3s;
+}
+
+.images
+{
+    width: 100%;
+    display: flex;
+}
+
+#image1
+{
+    transform: translateX(0%);
+}
+
+.menu
+{
+    object-fit: cover;
+    height: 300px;
+    width: calc(100%/3);
+}
+
+.button
+{
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size:64px;
+}
+
+.left
+{
+    top:50%;
+    left:5%;
+}
+
+.right
+{
+    top:50%;
+    left: 95%;
+}
